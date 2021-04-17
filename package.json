@@ -24,5 +24,8 @@
   },
   "dependencies": {
     "firebase-admin": "^9.5.0"
+  },
+  "engines": {
+    "node": ">=12.7"
   }
 }
