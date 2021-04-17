@@ -1,6 +1,6 @@
 # @marksteve/firebase-auth
 
-Express and Koa middlewares for verifying Firebase Auth tokens
+Express and Koa middlewares for [verifying Firebase Auth tokens](https://firebase.google.com/docs/auth/admin/verify-id-tokens)
 
 ## Express
 
