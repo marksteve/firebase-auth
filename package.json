@@ -1,7 +1,7 @@
 {
   "name": "@marksteve/firebase-auth",
   "description": "Express and Koa middlewares for verifying Firebase Auth tokens",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/marksteve/firebase-auth.git"
