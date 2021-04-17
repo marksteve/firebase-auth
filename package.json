@@ -1,7 +1,10 @@
 {
   "name": "@marksteve/firebase-auth",
   "description": "Express and Koa middlewares for verifying Firebase Auth tokens",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "files": [
+    "./dist"
+  ],
   "exports": {
     "./express": "./dist/express.js",
     "./koa": "./dist/koa.js"
