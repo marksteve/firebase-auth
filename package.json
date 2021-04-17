@@ -23,7 +23,8 @@
   },
   "scripts": {
     "watch": "esbuild --watch --platform=node --outdir=dist src/*.ts",
-    "build": "esbuild --platform=node --outdir=dist src/*.ts && tsc"
+    "build": "esbuild --platform=node --outdir=dist src/*.ts && tsc",
+    "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
     "express": "4.x",
