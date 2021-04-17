@@ -1,7 +1,11 @@
 {
-  "name": "node-firebase-auth",
+  "name": "@marksteve/firebase-auth",
+  "description": "Express and Koa middlewares for verifying Firebase Auth tokens",
   "version": "0.0.1",
-  "main": "dist/index.js",
+  "exports": {
+    "./express": "./dist/express.js",
+    "./koa": "./dist/koa.js"
+  },
   "author": "Mark Steve Samson <hello@marksteve.com>",
   "license": "MIT",
   "devDependencies": {
@@ -13,6 +17,10 @@
   "scripts": {
     "watch": "esbuild --watch --platform=node --outdir=dist src/*.ts",
     "build": "esbuild --platform=node --outdir=dist src/*.ts && tsc"
+  },
+  "peerDependencies": {
+    "express": "4.x",
+    "koa": "2.x"
   },
   "dependencies": {
     "firebase-admin": "^9.5.0"
